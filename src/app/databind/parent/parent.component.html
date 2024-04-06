@@ -1,0 +1,57 @@
+   <div class="box" >
+   <div class="text-center">
+   <h2>Buy Products</h2>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos est consequatur voluptas sequi nihil suscipit obcaecati a culpa voluptate, saepe impedit, soluta exercitationem officiis vitae odit quam, voluptatem error.
+   </p>
+   </div>text-center
+
+   <hr class="mb-3">
+   <div class="row">
+   <div class="col-md-12">
+     <div class="card" style="width: 18rem;">
+       <img class="card-img-top" src="/assets/laptop.jpg" width="170px"  alt="Card image cap">
+       <div class="card-body">
+        <h4>Laptop</h4>
+         <a  (click)="onSlectProduct('Laptop')"  class="btn btn-sucess">Select this Product</a>
+       </div>
+     </div>
+
+
+     <hr class="mb-3">
+     <div class="card" style="width: 18rem;">
+       <img class="card-img-top" src="/assets/washing_Machine.jpg" width="170px"  alt="Card image cap">
+       <div class="card-body">
+        <h4>Washing Machine</h4>
+         <a  (click)="onSlectProduct('Washing Machine')" class="btn btn-sucess">Select this Products</a>
+       </div>
+     </div>
+
+     <hr class="mb-3">
+     <div class="card" style="width: 18rem;">
+       <img class="card-img-top" src="/assets/Tv.jpg" width="170px"  alt="Card image cap">
+       <div class="card-body">
+        <h4>Television</h4>
+         <a  (click)="onSlectProduct('Television')" class="btn btn-sucess">Select this Product</a>
+       </div>
+     </div>
+
+     <hr class="mb-3">
+     <div class="card" style="width: 18rem;">
+       <img class="card-img-top" src="/assets/mobile.jpg" width="170px"  alt="Card image cap">
+       <div class="card-body">
+        <h4>Mobile</h4>
+         <a   (click)="onSlectProduct('Mobile')" class="btn btn-sucess">Select this Product</a>
+       </div>
+     </div>
+     <hr class="mb-3">
+   </div>
+   <div class="col-md">
+
+  <app-child  ></app-child>
+   <h1 *ngIf="!productsSelected">Please Select Any Product</h1>
+   <h3 *ngIf="productsSelected">{{selectedProducts}} is Selected</h3>
+   <button class="btn1">Add to Cart</button>
+   </div>
+  </div>
+  <hr class="mb-3">
+</div>

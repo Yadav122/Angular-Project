@@ -1,0 +1,59 @@
+
+/* .box{
+  width: 100%;
+  background: rgb(200, 236, 200);
+  padding: 10px;
+  text-align: center;
+}
+.card
+{
+  width: 97%;
+  height:150px;
+  background: white;
+
+}
+.row{
+  display: flex;
+}
+.btn{
+  background: green;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px;
+  border-radius: 4px;
+
+} */
+
+
+
+.box{
+  width: 100%;
+  background: rgb(244, 242, 188);
+  padding: 10px;
+  text-align: center;
+  box-shadow: inset 0 0 107px -42px #000;
+}
+.card{
+ display: inline-block;
+  margin: 0 10px 10px;
+  width: 20%;
+  padding: 20px;
+  box-shadow: inset 0 0 107px -42px #cb7373;
+
+}
+.btn{
+  background: green;
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px;
+  border-radius: 4px;
+
+}
+
+.cardArrange
+{
+  display: flex;
+  justify-content: center;
+}

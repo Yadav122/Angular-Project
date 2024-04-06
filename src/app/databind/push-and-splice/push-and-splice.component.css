@@ -1,0 +1,25 @@
+.btn-success
+{
+  background: rgb(47, 152, 47);
+  color: white;
+   margin-left:10px ;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 200;
+   font-size: 14px;
+   padding: 4px;
+    border: 2px solid green;
+    border-radius: 2px;
+}
+.col-md-10{
+  background: black;
+  color: white;
+  padding: 10px;
+  line-height: 20px;
+
+}
+tbody
+{
+  background: white;
+}
+
+

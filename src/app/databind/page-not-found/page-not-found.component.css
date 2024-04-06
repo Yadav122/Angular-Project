@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:greenyellow;
+  margin: 0;
+  padding: 0;
+}
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color:greenyellow;
+
+}
+.error-container h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.error-container p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.error-container a {
+  text-decoration: none;
+  color:black;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #007bff;
+  font-weight: bold;
+}
